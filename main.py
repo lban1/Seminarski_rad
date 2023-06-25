@@ -6,8 +6,6 @@ from utilities import provjera_korisnickog_unosa
 from narucitelj import Narucitelj
 
 narucitelji = []
-narucitelji_ = []
-narudzbe = []
 
 con = sqlite3.connect("faksDB.db")
 cur = con.cursor()
